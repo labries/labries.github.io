@@ -9,31 +9,6 @@
 	alert("WARNING - This is a personal website!!!");
 </SCRIPT>
 
-<script type="text/javascript">
- 8         window.onload = function() {
- 9             document.onkeydown = function() {
-10                 var e = window.event || arguments[0];
-11                 //屏蔽F12
-12                 if(e.keyCode == 123) {
-13 
-14                     return false;
-15                  //屏蔽Ctrl+Shift+I
-16                 } else if((e.ctrlKey) && (e.shiftKey) && (e.keyCode == 73)) {
-17 
-18                     return false;
-19                     //屏蔽Shift+F10
-20                 } else if((e.shiftKey) && (e.keyCode == 121)){
-21
-22                     return false;
-23                 }
-24             };
-25             //屏蔽右键单击
-26             document.oncontextmenu = function() {
-27
-28                 return false;
-29             }
-30         }
-31     </script>
 
 <body>
   <script type="text/javascript">
