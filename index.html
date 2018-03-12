@@ -9,7 +9,7 @@
 	alert("WARNING - This is a personal website!!!");
 </SCRIPT>
 <script type="text/javascript" src="checkpwd.js"></script>
-<body>
+<body oncontextmenu=self.event.returnValue=false onselectstart="return false">
 <center>
 <p>&nbsp;</p>
 <p></p>
@@ -19,16 +19,16 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<form action="" method = "post"  onSubmit="return checklogin()">
-<table width="215" height="182" border="0" align="center">
+<form action="main.html" method = "post"  onSubmit="return checklogin()">
+<table width="200px" height="182px" border="0" align="center">
   <tr>
-    <td width="209" height="100"><input style="BORDER-TOP-STYLE:none;BORDER-RIGHT-STYLE:none;BORDER-LEFT-STYLE:none;BORDER-BOTTOM-STYLE:solid;" type="text" size="22" id="username" name="name" onFocus="test"  placeholder="Username"></td>
+    <td width="200px" height="100px"><input height="80px" width="200px" style="BORDER-TOP-STYLE:none;BORDER-RIGHT-STYLE:none;BORDER-LEFT-STYLE:none;BORDER-BOTTOM-STYLE:solid;" type="text" size="22" id="username" name="name" onFocus="test"  placeholder="Username"></td>
   </tr>
   <tr>
-    <td height="76"><input style="BORDER-TOP-STYLE:none;BORDER-RIGHT-STYLE:none;BORDER-LEFT-STYLE:none;BORDER-BOTTOM-STYLE:solid;" type="password" size="22" id="password" name="password" placeholder="******"/></td>
+    <td width="200px" height="100px"><input style="BORDER-TOP-STYLE:none;BORDER-RIGHT-STYLE:none;BORDER-LEFT-STYLE:none;BORDER-BOTTOM-STYLE:solid;" type="password" size="22" id="password" name="password" placeholder="******"/></td>
   </tr>
   </table>
-  <p align="center"><input style="background-color: transparent" type="submit" value="GO">
+  <p align="center"><input style="background-color: transparent" type="submit" value="LOGIN" onclick="main.html">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 </p>
 </form>
@@ -38,7 +38,7 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p align="right"><span class="STYLE1">Welcome to <a href="http://www.taime.xyz">taime.xyz</a>，Any quetions,please contact    <a href="mailto:taime@taime.xyz">taime@taime.xyz </a></span></p>
+<p align="right"><span>Welcome to <a href="http://www.taime.xyz">taime.xyz</a>，Any quetions,please contact    <a href="mailto:taime@taime.xyz">taime@taime.xyz </a></span></p>
 <p>&nbsp;</p>
 </body>
 </html>
