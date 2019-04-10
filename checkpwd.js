@@ -11,7 +11,7 @@ function checklogin(){
 	}else if(password==""||password==null){
 		alert("Please enter password!");
 		return false;
-	}else if (password !=="adminn"){
+	}else if (password !="adminn"){
 		alert("Wrong password !");
 		return false;
 	}
