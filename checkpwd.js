@@ -5,13 +5,13 @@ function checklogin(){
 	if(username==""||username==null ){
 		alert("Please enter name !");
 		return false;
-	}else if(username !== "admin"){
+	}else if(username !== "xiaochuang"){
 		alert("Wrong name !");
 		return false;
 	}else if(password==""||password==null){
 		alert("Please enter password!");
 		return false;
-	}else if (password !="adminn"){
+	}else if (password !="xiaochuang"){
 		alert("Wrong password !");
 		return false;
 	}
