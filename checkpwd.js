@@ -3,16 +3,13 @@ function checklogin(){
 	var  username=document.getElementById("username").value;
 	var  password=document.getElementById("password").value;
 	if(username==""||username==null ){
-		alert("Please enter name !");
-		return false;
-	}else if(username !== "xiaochuang"){
-		alert("Wrong name !");
+		alert("请输入用户名 !");
 		return false;
 	}else if(password==""||password==null){
-		alert("Please enter password!");
+		alert("请输入密码 !");
 		return false;
-	}else if (password !="xiaochuang"){
-		alert("Wrong password !");
+	}else if(username != "xiaochuang" || password != "xiaochuang"){
+		alert("用户名或密码错误 !");
 		return false;
 	}
 	return true;
