@@ -14,5 +14,10 @@ function checklogin(){
 	}
 	return true;
 }
+function test_service(){
+	
+String service_ip = resuest.getServerName();
+      alert("获取到的service_ip为："+service_ip);
+}
 
 
